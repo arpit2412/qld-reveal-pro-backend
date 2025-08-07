@@ -1,0 +1,43 @@
+{
+  "name": "formly-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "supabase-push": "drizzle-kit push",
+    "supabase-pull": "drizzle-kit introspect",
+    "dev": "nodemon src/server.ts",
+    "start": "node build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@electric-sql/pglite": "^0.3.7",
+    "@supabase/supabase-js": "^2.53.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "drizzle-orm": "^0.44.4",
+    "express": "^5.1.0",
+    "jose": "^6.0.12",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.2.0",
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
