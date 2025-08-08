@@ -1,3 +1,4 @@
 import { authRouter } from "./auth.routes";
+import {docsRouter} from "./document.routes"
 
-export { authRouter };
+export { authRouter, docsRouter };

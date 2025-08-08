@@ -25,7 +25,9 @@
     "express": "^5.1.0",
     "jose": "^6.0.12",
     "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
     "nodemon": "^3.1.10",
+    "pdf-lib": "^1.17.1",
     "pg": "^8.16.3"
   },
   "devDependencies": {
@@ -34,6 +36,7 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.0.0",
     "@types/node": "^24.2.0",
     "@types/pg": "^8.15.5",
     "drizzle-kit": "^0.31.4",
