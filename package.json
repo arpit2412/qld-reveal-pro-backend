@@ -28,7 +28,9 @@
     "multer": "^2.0.2",
     "nodemon": "^3.1.10",
     "pdf-lib": "^1.17.1",
-    "pg": "^8.16.3"
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.16.3",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",

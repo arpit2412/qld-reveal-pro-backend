@@ -8,6 +8,27 @@
       "when": 1754473468132,
       "tag": "0000_useful_stranger",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1754632943818,
+      "tag": "0001_perfect_network",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1754633088629,
+      "tag": "0002_fast_valkyrie",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1754637074514,
+      "tag": "0003_rainy_hulk",
+      "breakpoints": true
     }
   ]
 }

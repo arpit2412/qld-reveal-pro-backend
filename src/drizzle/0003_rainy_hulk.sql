@@ -1,0 +1,1 @@
+ALTER TABLE "disclosure_form_data" ALTER COLUMN "form_data" SET DEFAULT '{}'::jsonb;

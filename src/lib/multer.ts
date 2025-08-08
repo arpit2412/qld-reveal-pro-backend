@@ -3,10 +3,10 @@ import path from "path";
 import fs from "fs"
 
 
-const rawUploadDir = path.join(__dirname, "../controllers/uploads", "raw");
+const rawUploadDir = path.join(__dirname, "../uploads", "raw");
 fs.mkdirSync(rawUploadDir, { recursive: true });
 
-const mergedDir = path.join(__dirname, "../controllers/uploads", "merged");
+const mergedDir = path.join(__dirname, "../uploads", "merged");
 fs.mkdirSync(mergedDir, { recursive: true });
 
 const storage = multer.diskStorage({

@@ -1,15 +1,16 @@
 import { defineConfig } from "drizzle-kit";
+import {config} from "./src/config/config"
 
 export default defineConfig({
-  schema: "./drizzle/schema.ts",
-  out: "./drizzle",
+  schema: "./src/drizzle/schema.ts",
+  out: "./src/drizzle",
   dialect: "postgresql",
   dbCredentials: {
-    database: "postgres",
-    host: "aws-0-ap-southeast-2.pooler.supabase.com",
-    password: ".zMePh8m%47iprt",
-    port: 6543,
-    user: "postgres.ecpgbrofjdxlquaalbmh",
+    database: config.database,
+    host: config.host,
+    password: config.password,
+    port: config.port,
+    user: config.user,
     ssl: {
       rejectUnauthorized: false
     },
